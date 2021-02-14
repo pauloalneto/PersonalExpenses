@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{D307E6DF-BFB0-4996-835C-30BC9D7288F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{B99EA622-44AA-441B-97F7-F16C5D0A80F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{60CEF0D8-0BA6-4D2E-B135-B5C55329A47D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{AE60740E-8C9A-41A8-9743-5553943A2C11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalExpenses.Domain", "PersonalExpenses.Domain\PersonalExpenses.Domain.csproj", "{70F6B3B0-4A9B-4FD2-9C5A-8646BC05C43D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalExpenses.Domain.Core", "PersonalExpenses.Domain.Core\PersonalExpenses.Domain.Core.csproj", "{F404946A-23FC-40F9-8164-3795081AA6E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalExpenses.Domain.Services", "PersonalExpenses.Domain.Services\PersonalExpenses.Domain.Services.csproj", "{440CB997-1F0A-4FB1-BED6-0FAC4BFAF64A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalExpenses.Application", "PersonalExpenses.Application\PersonalExpenses.Application.csproj", "{D8A283F0-9B91-48EE-B8A0-09C58AD239F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalExpenses.Application.DTO", "PersonalExpenses.Application.DTO\PersonalExpenses.Application.DTO.csproj", "{8F631CDB-5BDB-4439-8055-7294200A13A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{3D58DC8B-F89E-4556-A152-FED081C160E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalExpenses.Infrastructure.Data", "PersonalExpenses.Infrastructure.Data\PersonalExpenses.Infrastructure.Data.csproj", "{48939506-EDF2-4C78-A997-607F1AC42B20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalExpenses.Infrastructure.Repository", "PersonalExpenses.Infrastructure.Repository\PersonalExpenses.Infrastructure.Repository.csproj", "{DDFE6CD6-A3B9-4887-B2A3-14812AE63286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{EF09866C-7D48-4535-B94A-7C6AD4E61397}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalExpenses.Infrastructure.CrossCutting.Adapter", "PersonalExpenses.Infrastructure.CrossCutting.Adapter\PersonalExpenses.Infrastructure.CrossCutting.Adapter.csproj", "{1C96A6C3-3156-4BDD-8659-1571F66763AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalExpenses.Infrastructure.CrossCutting.IOC", "PersonalExpenses.Infrastructure.CrossCutting.IOC\PersonalExpenses.Infrastructure.CrossCutting.IOC.csproj", "{14B98E7D-5F33-4C23-8CB9-40D7B6AF2EC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalExpenses.API", "PersonalExpenses.API\PersonalExpenses.API.csproj", "{17AB22B7-EC39-4A00-BB38-4FFB80129B22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentation", "0 - Apresentation", "{2EBBCCC4-9A43-4AC1-9050-B3CA28DB4FF7}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PersonalExpenses.SPA.UI", "PersonalExpenses.SPA.UI\", "{809B7FBD-7062-46C5-AD8A-ADC2CE2812AA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61919"
+		Debug.AspNetCompiler.PhysicalPath = "PersonalExpenses.SPA.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61919\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61919"
+		Release.AspNetCompiler.PhysicalPath = "PersonalExpenses.SPA.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61919\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61919"
+		SlnRelativePath = "PersonalExpenses.SPA.UI\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70F6B3B0-4A9B-4FD2-9C5A-8646BC05C43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F6B3B0-4A9B-4FD2-9C5A-8646BC05C43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F6B3B0-4A9B-4FD2-9C5A-8646BC05C43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F6B3B0-4A9B-4FD2-9C5A-8646BC05C43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F404946A-23FC-40F9-8164-3795081AA6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F404946A-23FC-40F9-8164-3795081AA6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F404946A-23FC-40F9-8164-3795081AA6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F404946A-23FC-40F9-8164-3795081AA6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440CB997-1F0A-4FB1-BED6-0FAC4BFAF64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440CB997-1F0A-4FB1-BED6-0FAC4BFAF64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440CB997-1F0A-4FB1-BED6-0FAC4BFAF64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440CB997-1F0A-4FB1-BED6-0FAC4BFAF64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A283F0-9B91-48EE-B8A0-09C58AD239F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A283F0-9B91-48EE-B8A0-09C58AD239F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A283F0-9B91-48EE-B8A0-09C58AD239F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A283F0-9B91-48EE-B8A0-09C58AD239F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F631CDB-5BDB-4439-8055-7294200A13A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F631CDB-5BDB-4439-8055-7294200A13A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F631CDB-5BDB-4439-8055-7294200A13A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F631CDB-5BDB-4439-8055-7294200A13A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48939506-EDF2-4C78-A997-607F1AC42B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48939506-EDF2-4C78-A997-607F1AC42B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48939506-EDF2-4C78-A997-607F1AC42B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48939506-EDF2-4C78-A997-607F1AC42B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFE6CD6-A3B9-4887-B2A3-14812AE63286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFE6CD6-A3B9-4887-B2A3-14812AE63286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFE6CD6-A3B9-4887-B2A3-14812AE63286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFE6CD6-A3B9-4887-B2A3-14812AE63286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C96A6C3-3156-4BDD-8659-1571F66763AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C96A6C3-3156-4BDD-8659-1571F66763AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C96A6C3-3156-4BDD-8659-1571F66763AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C96A6C3-3156-4BDD-8659-1571F66763AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B98E7D-5F33-4C23-8CB9-40D7B6AF2EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B98E7D-5F33-4C23-8CB9-40D7B6AF2EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B98E7D-5F33-4C23-8CB9-40D7B6AF2EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B98E7D-5F33-4C23-8CB9-40D7B6AF2EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AB22B7-EC39-4A00-BB38-4FFB80129B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AB22B7-EC39-4A00-BB38-4FFB80129B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AB22B7-EC39-4A00-BB38-4FFB80129B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AB22B7-EC39-4A00-BB38-4FFB80129B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809B7FBD-7062-46C5-AD8A-ADC2CE2812AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809B7FBD-7062-46C5-AD8A-ADC2CE2812AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809B7FBD-7062-46C5-AD8A-ADC2CE2812AA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{809B7FBD-7062-46C5-AD8A-ADC2CE2812AA}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70F6B3B0-4A9B-4FD2-9C5A-8646BC05C43D} = {60CEF0D8-0BA6-4D2E-B135-B5C55329A47D}
+		{F404946A-23FC-40F9-8164-3795081AA6E2} = {60CEF0D8-0BA6-4D2E-B135-B5C55329A47D}
+		{440CB997-1F0A-4FB1-BED6-0FAC4BFAF64A} = {60CEF0D8-0BA6-4D2E-B135-B5C55329A47D}
+		{D8A283F0-9B91-48EE-B8A0-09C58AD239F7} = {B99EA622-44AA-441B-97F7-F16C5D0A80F9}
+		{8F631CDB-5BDB-4439-8055-7294200A13A8} = {B99EA622-44AA-441B-97F7-F16C5D0A80F9}
+		{3D58DC8B-F89E-4556-A152-FED081C160E9} = {AE60740E-8C9A-41A8-9743-5553943A2C11}
+		{48939506-EDF2-4C78-A997-607F1AC42B20} = {3D58DC8B-F89E-4556-A152-FED081C160E9}
+		{DDFE6CD6-A3B9-4887-B2A3-14812AE63286} = {3D58DC8B-F89E-4556-A152-FED081C160E9}
+		{EF09866C-7D48-4535-B94A-7C6AD4E61397} = {AE60740E-8C9A-41A8-9743-5553943A2C11}
+		{1C96A6C3-3156-4BDD-8659-1571F66763AF} = {EF09866C-7D48-4535-B94A-7C6AD4E61397}
+		{14B98E7D-5F33-4C23-8CB9-40D7B6AF2EC0} = {EF09866C-7D48-4535-B94A-7C6AD4E61397}
+		{17AB22B7-EC39-4A00-BB38-4FFB80129B22} = {D307E6DF-BFB0-4996-835C-30BC9D7288F4}
+		{809B7FBD-7062-46C5-AD8A-ADC2CE2812AA} = {2EBBCCC4-9A43-4AC1-9050-B3CA28DB4FF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B8EE308-14A0-4759-A414-C8883731EC4D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalExpenses.Application.DTO\PersonalExpenses.Application.DTO.csproj" />
+    <ProjectReference Include="..\PersonalExpenses.Domain.Core\PersonalExpenses.Domain.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
+</Project>
